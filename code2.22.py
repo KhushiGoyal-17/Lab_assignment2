@@ -6,7 +6,7 @@ class Employee:
         self.salary = salary
 
     def __str__(self):
-        return f"{self.emp_id}\t\t\t{self.name}\t{self.age}\t{self.salary}"
+        return f"{self.emp_id}\t\t{self.name}\t{self.age}\t{self.salary}"
 
 
 class EmployeeTable:
